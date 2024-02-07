@@ -1,20 +1,17 @@
 #include <stdio.h>
-#include <ctype.h>
 /**
  * main - Entry point 
  *
  * Return: Always 0 (success)
  */
+
 int main(void)
 {
-	int lowerCase =  'a';
+	char i;
 
-	while (lowerCase <= 'z')
-	{
-		putchar(lowerCase);
-		lowerCase += 1;
-		putchar('\n');
-	}
+	for (i = 'a' ; i <= 'z'  ; i++)
+		putchar(i);
+	putchar('\n');
 	return (0);
 }
 
