@@ -3,23 +3,29 @@
 /**
  * main - Entry point
  *
- * Return: Always0 (success)
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-	int lowerCase = 'a';
-	int upperCase = 'A';
+	char c;
 
-	while (lowerCase <= 'z')
-	{
-		putchar(lowerCase);
-		lowerCase += 1;
-	}
-	while (upperCase <=  'Z')
-	{
-		putchar(upperCase += 1;
-	}
+	char  d;
+
+	c = 'a';
+	d = 'A';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	while
+		(d <= 'z') {
+			putchar(d);
+			d++;
+		}
 	putchar('\n');
 	return (0);
 }
+	
 
