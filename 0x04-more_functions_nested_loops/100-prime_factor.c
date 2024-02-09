@@ -7,6 +7,7 @@
  *
  * Return: the largest prime factor
  */
+
 long largest_prime_factor(long n)
 {
     long i;
