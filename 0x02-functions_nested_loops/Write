@@ -1,0 +1,7 @@
+    oputchar('\n');
+    _putchaeturns 1 if c is lowercase
+Returns 0 otherwise
+FYI: The standard library provides a
+i
+i
+
